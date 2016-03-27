@@ -17,7 +17,7 @@ JadeFilter.prototype = Object.create(Filter.prototype);
 JadeFilter.prototype.constructor = JadeFilter;
 
 JadeFilter.prototype.extensions = ['jade'];
-JadeFilter.prototype.targetExtension = 'html';
+JadeFilter.prototype.targetExtension = 'hbs';
 
 JadeFilter.prototype.processString = function (str, filename) {
 	this.options.filename = filename;
